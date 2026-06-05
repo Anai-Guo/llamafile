@@ -14,6 +14,9 @@ llamafile -m Apertus-8B-Instruct-2509.gguf --temp ...
 ./Apertus-8B-Instruct-2509.llamafile --temp ...
 ```
 
+For a full reference of wrapper flags and pass-through `llama.cpp` options, see
+[CLI Arguments and Flags](cli_arguments.md).
+
 
 ## Running llamafile in CLI mode
 
@@ -154,4 +157,3 @@ llamafile -ngl 9999 --temp 0 \
   sed -e's/ /_/g' -e's/$/.jpg/'
 a_baby_monkey_on_the_back_of_a_mother.jpg
 ```
-
